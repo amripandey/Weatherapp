@@ -45,7 +45,11 @@ input {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 5vh;
+  gap: 3vh;
+}
+.info>.h22{
+  font-size: 2.4rem;
+  color: white;
 }
 
 .condition>h2 {

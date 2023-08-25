@@ -47,13 +47,13 @@ function App() {
     <main className='app'>
       {/* top container */}
       <div className="Top">
-        <input type='text' value={text} onChange={(e) => { userInput(e) }} onKeyDown={(e) => { usercity(e) }} />
+        <input type='text' placeholder='search' value={text} onChange={(e) => { userInput(e) }} onKeyDown={(e) => { usercity(e) }} />
 
         <div className="box1">
 
           <div className="info">
             <h2>{data.city}</h2>
-            <h2>{data.temp}°c</h2>
+            <h2 className='h22'>{data.temp}°c</h2>
           </div>
 
           <div className="condition">
